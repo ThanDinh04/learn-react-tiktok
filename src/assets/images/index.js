@@ -4,3 +4,5 @@ const images = {
 };
 
 export default images;
+
+// Image
