@@ -1,8 +1,8 @@
-import * as request from '~/utils/request';
+import * as httpRequest from '~/utils/httpRequest';
 
 export const search = async (q, per_page = 5) => {
     try {
-        const res = await request.get('search/users', {
+        const res = await httpRequest.get('search/users', {
             params: {
                 q,
                 per_page,
